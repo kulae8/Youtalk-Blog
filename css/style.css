@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    width: 1440px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    border-bottom: #333333;
+}
+
+.header-logo {
+    background-image: url(../svg/logo.svg);
+    background-repeat: no-repeat;
+    width: 51px;
+    height: 36px;
+    margin: 20px 51px 20px 120px;
+}
+
+.header-navigation {
+    display: flex;
+    list-style: none;
+    width: 710px;
+    margin-right: 164px;
+    justify-content: space-between;
+    
+}
+
+.header-navigation-item {
+    display: flex;
+text-align: center;
+text-decoration: none;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.25px;
+
+}
+
+.header-navigation a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.header-navigation-psy {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #03B2A5;
+    padding: 14px 20px 14px;
+    background-color: #E3F5F5;
+}
+
+button {
+    border: 0px;
+    border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+    color: #03B2A5;
+
+}
+
+summary {
+    display: flex;
+    cursor: pointer;
+}
+
+.arrow-down-details {
+display: flex;
+}
+
+.details-svg-arrow {
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+.details-svg-arrow-text {
+    position: fixed;
+    display: block;
+    z-index: 1;
+    padding-top: 3px;
+}
