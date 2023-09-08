@@ -33,7 +33,6 @@ body {
 .header-navigation-item {
     display: flex;
 text-align: center;
-text-decoration: none;
 font-family: Montserrat;
 font-size: 14px;
 font-weight: 500;
@@ -42,8 +41,10 @@ letter-spacing: 0.25px;
 
 }
 
+a {
+    text-decoration: none;  
+}
 .header-navigation a {
-    text-decoration: none;
     color: #333333;
 }
 
@@ -65,9 +66,7 @@ button {
 }
 
 button a {
-    text-decoration: none;
     color: #03B2A5;
-
 }
 
 summary {
@@ -116,6 +115,10 @@ letter-spacing: 0.25px;
 .navigation-footer-text-blog {
     margin-left: 8px;
 }
+
+.navigation-footer-arrow {
+    padding-top: 1px;
+}
 main {
     margin-left: 120px;
 }
@@ -150,4 +153,100 @@ padding: 6px 8px;
 
 .header-blog-menu-item-svg {
     vertical-align: middle;
+    margin-top: -1px;
 }
+
+.header-blog-menu-item:hover {
+    border-radius: 24px;
+border: 1px solid #16C8BB;
+transition: 0.1s;
+}
+
+
+.header-blog-menu-item a {
+    color: #333;
+}
+
+.container-main-top {
+    height: 499px;
+    width: 1200px;
+    display: flex;
+}
+
+.container-main-top-block {
+    height: 499px;
+    width: 588px; 
+    display: flex;
+    border-radius: 16px;
+    border: 1px solid rgba(222, 222, 222, 1);
+    margin-top: 24px;
+    
+}
+.container-main-top-block-left {
+    background-image: url(/Youtalk-Blog/png/back-top-left.png);
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.container-main-top-block-right {
+    margin-left: 24px;
+    background-image: url(/Youtalk-Blog/png/back-top-right.png);
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.header-blog-menu-item-maincontainer {
+    height: 20px;
+    background: rgba(255, 255, 255, 0.70);
+    margin: 8px 8px;
+    width: fit-content;
+}
+
+.container-main-top-block-text1 {
+    margin: 178px 31px 4px 16px;
+    color: #333;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+}
+
+.container-main-top-block-text2 {
+    margin: 0px 0px 8px 16px;
+    color: #494949;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+letter-spacing: 0.25px;
+}
+
+.container-main-top-block-text3 {
+    margin-left: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:  #333;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+
+.container-main-top-block-text4 {
+    margin-left: 16px;
+    margin-top: 68px;
+color: #868686;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.25px;
+}
+
+.container-main-top-block-text1-right {
+margin-top: 226px;
+}
+
