@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 body {
+    margin: auto;
     width: 1440px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -63,6 +64,7 @@ a {
 button {
     border: 0px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 button a {
@@ -166,11 +168,22 @@ transition: 0.1s;
 .header-blog-menu-item a {
     color: #333;
 }
+.container-background {
+background-image: url(/png/background.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 1440px;
+height: 672px;
+margin-top: 142px;
+margin-left: -120px;
+z-index: -1;
+}
 
 .container-main-top {
     height: 499px;
     width: 1200px;
     display: flex;
+    margin-top: -814px;
 }
 
 .container-main-top-block {
@@ -180,16 +193,15 @@ transition: 0.1s;
     border-radius: 16px;
     border: 1px solid rgba(222, 222, 222, 1);
     margin-top: 24px;
-    
 }
 .container-main-top-block-left {
-    background-image: url(/Youtalk-Blog/png/back-top-left.png);
+    background-image: url(/png/back-top-left.png);
     background-repeat: no-repeat;
     flex-direction: column;
 }
 .container-main-top-block-right {
     margin-left: 24px;
-    background-image: url(/Youtalk-Blog/png/back-top-right.png);
+    background-image: url(/png/back-top-right.png);
     background-repeat: no-repeat;
     flex-direction: column;
 }
@@ -200,19 +212,18 @@ transition: 0.1s;
     margin: 8px 8px;
     width: fit-content;
 }
-
-.container-main-top-block-text1 {
-    margin: 178px 31px 4px 16px;
+h1 {
     color: #333;
 font-family: Montserrat;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 26px;
+margin-top: 16px;
+margin-left: 16px;
 }
 
-.container-main-top-block-text2 {
-    margin: 0px 0px 8px 16px;
+h2 {
     color: #494949;
 font-family: Montserrat;
 font-size: 12px;
@@ -220,33 +231,131 @@ font-style: normal;
 font-weight: 400;
 line-height: 18px; 
 letter-spacing: 0.25px;
+margin-left: 16px;
 }
 
-.container-main-top-block-text3 {
-    margin-left: 16px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+h3 {
     color:  #333;
 font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px;
+margin-left: 16px;
+}
+
+h4 {
+    color: #868686;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    margin-left: 16px;
+}
+
+.container-main-top-block-text1 {
+    margin: 178px 31px 4px 16px;
+}
+
+.container-main-top-block-text2 {
+    margin: 0px 0px 8px 16px;
+}
+
+.container-main-top-block-text3 {
+    margin-left: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .container-main-top-block-text4 {
     margin-left: 16px;
     margin-top: 68px;
-color: #868686;
-font-family: Montserrat;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0.25px;
 }
 
 .container-main-top-block-text1-right {
 margin-top: 226px;
 }
 
+.container-main-center {
+    width: 1200px;
+    height: 475px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.container-main-center-all {
+    width: 384px;
+    height: 475px;
+    border-radius: 16px;
+    border: 1px solid rgba(222, 222, 222, 1);
+}
+
+.container-main-center-left {
+background-image: url(/png/backgroundmiddleleft.png);
+background-repeat: no-repeat;
+}
+
+.container-main-center-middle {
+    background-image: url(/png/backgroundmiddlecenter.png);
+    background-repeat: no-repeat;
+}
+
+.container-main-center-right{
+    background-image: url(/png/backgroundmiddleright.png);
+    background-repeat: no-repeat;
+}
+
+.container-main-center-left-blocktext1 {
+    margin-top: 182px;
+}
+
+.container-main-center-middle-blocktext1 {
+    margin-top: 229px;
+}
+
+.container-main-center-right-blocktext1 {
+    margin-top: 229px;
+}
+
+.center-span-svg {
+  margin-top: 9px;
+  display: block;
+}
+
+.container-main-bottom-left {
+background-image: url(/png/backgroundbottomleft.png);
+background-repeat: no-repeat;
+}
+
+.container-main-bottom-middle {
+    background-image: url(/png/backgroundbottommiddle.png);
+    background-repeat: no-repeat; 
+}
+
+.container-main-bottom-right {
+    background-image: url(/png/backgroundbottomright.png);
+background-repeat: no-repeat;
+}
+
+.button-bottom-more {
+    margin-top: 56px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background: #35B3A9; 
+    height: 48px;
+    width: 142px;
+  
+}
+
+.button-bottom-more a {
+    color: #FFF; 
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
