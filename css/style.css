@@ -2,7 +2,7 @@
 
 body {
     margin: auto;
-    width: 1440px;
+    max-width: 1440px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -135,7 +135,7 @@ main {
 }
 
 .header-blog-menu {
-display: flex;
+    display: flex;
 margin-right: 139px;
 justify-content: space-between;
 
@@ -359,3 +359,36 @@ background-repeat: no-repeat;
     font-weight: 700;
     line-height: 24px;
 }
+
+footer {
+    margin-top: 96px;
+    width: 1440px;
+    height: 302px;
+    background-color: #2963A3;
+}
+
+.footer-list-left {
+    padding-left: 120px;
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.footer-list-txt {
+    padding-bottom: 16px;
+    list-style: none;
+}
+
+.footer-list-txt a {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+
+.footer-list-right {
+    display: inline-block;
+    padding-left: 90px;
+}
+
